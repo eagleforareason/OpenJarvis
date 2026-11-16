@@ -1,0 +1,4 @@
+git checkout -b feat/voice-alerts
+git apply voice-alerts.patch
+git add -A && git commit -m "Add voice alerts"
+git push -u origin feat/voice-alerts
